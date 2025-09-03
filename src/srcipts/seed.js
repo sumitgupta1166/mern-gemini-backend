@@ -1,5 +1,5 @@
 import dotenv from "dotenv";
-dotenv.config({ path: "./.env" });
+dotenv.config({ path: "./env" });
 import connectDB from "../db/index.js";
 import { User } from "../models/user.model.js";
 import { Doc } from "../models/doc.model.js";
